@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/vue.min.js"></script>
+		<!--<script src="https://unpkg.com/vue/dist/vue.js"></script>-->
+	</head>
+	<body>
+		<h1><a href="http://www.runoob.com/vue2/vue-tutorial.html">第一个实例</a></h1>
+		
+		<div class="d1">
+			<p>名字：{{name}}</p>
+			<p>age：{{age}}</p>
+		</div>
+		<script>
+			new Vue({
+				el:'.d1',
+				data:{
+					name:'LM',
+					age:'男'
+					
+				}
+				
+			});
+		</script>
+	</body>
+</html>
