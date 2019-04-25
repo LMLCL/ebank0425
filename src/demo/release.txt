@@ -1,2 +1,2 @@
 0426-00:05创建release分支并推送到远程端
-A:end 
+release:clearAll
