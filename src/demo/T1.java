@@ -2,6 +2,6 @@ package demo;
 
 public class T1 {
 	public static void main(String[] args) {
-		System.out.println("ÄãºÃÃ´");
+		System.out.println("master");
 	}
 }
